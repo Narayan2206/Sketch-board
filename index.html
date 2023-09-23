@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SketchBoard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="flex-container">
+        <h1 class="title text-center">SketchBoard</h1>
+        <div class="content">
+            <div class="actions">
+                <div class="mode text-center">Drawing Mode: On</div>
+                <button id="pencil" class="btn">Pencil</button>
+                <button id="eraser" class="btn" >Eraser</button>
+                <button id="rainbow" class="btn">Rainbow</button>
+                <button id="togglegrid" class="btn">Toggle Grid</button>
+                <button id="clearboard" class="btn">Clear</button>
+                <div class="slider-output text-center">16 x 16</div>
+                <input type="range" min="1" max="64" value="16" id="slider" class="size-slider">
+            </div>
+            <div class="board">
+
+            </div>
+
+
+        </div>
+    </div>
+    <footer>
+        <p class="text-center">Copyright &copy; 2023 Narayan Pal</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
