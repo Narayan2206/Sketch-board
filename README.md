@@ -1,2 +1,4 @@
+#Sketchpad
 Create drawings with a web version of sketch board.
-Created using HTML, CSS and JavaScript.
+
+This website is created using HTML, CSS and JavaScript.
